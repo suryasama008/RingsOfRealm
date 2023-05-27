@@ -28,6 +28,7 @@ Installing
 To install the project:
 
 ## Live Demo
+live demo: live Demo: [https://reamoftherings.netlify.app/](https://reamoftherings.netlify.app/)
 
 ## Clone the repository:
 bash
