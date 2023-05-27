@@ -3,12 +3,23 @@ import { Link } from 'react-router-dom';
 import logo from '../assets/ring.jpeg';
 
 const Navbar: React.FC = () => {
+  /* `const [isOpen, setIsOpen] = useState(false);` is declaring a state variable `isOpen` and a
+  function to update it `setIsOpen`, using the `useState` hook from React. The initial value of
+  `isOpen` is set to `false`. This state variable is used to toggle the visibility of the navigation
+  links on smaller screens. */
   const [isOpen, setIsOpen] = useState(false);
 
+ /**
+  * The function toggles the value of a state variable called isOpen.
+  */
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
+ /* The `return` statement is returning a JSX element that represents the navigation bar of a website.
+ It consists of a `nav` element with a `className` of `flex items-center justify-between px-4 py-3
+ bg-black text-white`, which sets the background color to black and the text color to white, and
+ contains three child elements: */
   return (
     <nav className='flex items-center justify-between px-4 py-3 bg-black text-white '>
       <div className='flex items-center'>

@@ -18,7 +18,7 @@ component to render when that path is accessed. The `element` prop is used to sp
 to render for each route. Finally, the entire component is exported as the default export of the
 module. */
   return (
-    <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-center h-screen">
+    <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover bg-center h-screen bg-black">
     <Router>
     <Navbar />
     <Routes>
