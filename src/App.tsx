@@ -5,7 +5,7 @@ import MoviesList from '/src/components/MoviesList.tsx'
 import CharactersList from '/src/components/CharactersList.tsx'
 import Quotes from '/src/components/Quotes.tsx'
 import Home from '/src/components/Home.tsx'
-import bg from '/src/assets/wallpaper2.jpeg'
+import bg from '/src/assets/wallpaper.jpeg'
 
 
 const App: React.FC = () => {

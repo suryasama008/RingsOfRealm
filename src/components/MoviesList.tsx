@@ -61,7 +61,7 @@ mounts. */
           `className` attribute is used to apply CSS styles to the element. The `transform`,
           `transition-all`, `duration-300`, `ease-in-out`, and `hover:scale-90` classes are used to
           apply a scaling animation to the movie card when it is hovered over. */
-          <div key={movie._id} className="bg-white shadow-md p-4 rounded-lg transform transition-all duration-300 ease-in-out hover:scale-90" style = {{backgroundImage : `url(${bg})`}} >
+          <div key={movie._id} className="bg-white shadow-md p-4 rounded-lg transform transition-all duration-300 ease-in-out hover:scale-105" style = {{backgroundImage : `url(${bg})`}} >
             <h2 className="text-lg font-semibold mb-2">{movie.name}</h2>
             <div className='flex space-x-4'>
             <div>
