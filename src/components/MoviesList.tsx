@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import movie_card from '/src/assets/movie_card.jpeg'
 import bg from '/src/assets/cardbg.png'
 
 /* The `interface Movie` is defining the structure of an object that represents a movie. It specifies

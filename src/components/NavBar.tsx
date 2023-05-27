@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/ring.jpeg';
-import music from '../assets/music.mp3';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false)
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
@@ -21,7 +19,7 @@ const Navbar: React.FC = () => {
           {' '}
           Realm of Rings
         </Link>
-        <img src={logo} alt='logo' className='h-10 w-10 animate-bounce' />
+        <img src={logo} alt='logo' className='h-10 w-10' />
       </div>
 
       <div className='md:hidden'>
@@ -51,7 +49,7 @@ const Navbar: React.FC = () => {
       <div
         className={`px-2 pt-2 pb-4 ${
           isOpen ? `block` : `hidden`
-        } md:flex md:items-center md:space-x-1 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-red-900`}
+        } md:flex md:items-center md:space-x-1 bg-clip-text text-yellow-500`}
       >
 
         <Link
