@@ -5,16 +5,18 @@ The purpose of this project, titled "Realm of Rings", is to provide a React and 
 This project is based on vite, a build tool that significantly improves the frontend development experience. It's main features are instantaneous server start-up and hot module replacement (HMR) and true on-demand compilation.
 
 ## Features
-Home: The Home page displays a welcome message.
-Movies: The Movies page provides a list of all the movies in the franchise.
-Characters: The Characters page provides a list of all the characters in the franchise.
-Quotes: The Quotes page lists all the quotes from the series, fetched from an external API.
-Tech Stack
-ReactJS: A JavaScript library for building user interfaces.
-TypeScript: An open-source language that builds on JavaScript by adding static type definitions.
-Tailwind CSS: A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
-Vite: A next-generation frontend tooling that provides faster and leaner development experience for modern web projects.
-Getting Started
+- Home: The Home page displays a welcome message.
+- Movies: The Movies page provides a list of all the movies in the franchise.
+- Characters: The Characters page provides a list of all the characters in the franchise.
+- Quotes: The Quotes page lists all the quotes from the series, fetched from an external API.
+
+## Tech Stack
+- ReactJS: A JavaScript library for building user interfaces.
+- TypeScript: An open-source language that builds on JavaScript by adding static type definitions.
+- Tailwind CSS: A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.
+- Vite: A next-generation frontend tooling that provides faster and leaner development experience for modern web projects.
+
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ## Prerequisites
