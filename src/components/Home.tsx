@@ -13,9 +13,11 @@ const Home: React.FC = () => {
         <div className='flex justify-center absolute inset-x-0 top-1/2 -translate-y-1/2 text-center '>
             <div className="text-center">
                 <h1 className="text-6xl font-serif italic text-yellow-500 ">Welcome to Realm of Rings</h1>
+                <p className='italic text-yellow-500 mt-3'>“Go where you must go, and hope!”— Gandalf.</p>
+
                 <button className="text-2xl font-serif italic text-yellow-500 border border-lime-100 bg-red-600 px-3 py-1 mt-4 rounded-2xl
                 transition ease-in-out delay-150  hover:scale-110 hover:bg-indigo-500 duration-300
-                "><a href='/movies'>Explore</a></button>
+                "><a href='/movies'>Begin Journey</a></button>
                 </div>
         </div>
     )
