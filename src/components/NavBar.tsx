@@ -1,16 +1,25 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/ring.jpeg';
-import music from '../assets/music.mp3';
 
 const Navbar: React.FC = () => {
+  /* `const [isOpen, setIsOpen] = useState(false);` is declaring a state variable `isOpen` and a
+  function to update it `setIsOpen`, using the `useState` hook from React. The initial value of
+  `isOpen` is set to `false`. This state variable is used to toggle the visibility of the navigation
+  links on smaller screens. */
   const [isOpen, setIsOpen] = useState(false);
-  const [isPlaying, setIsPlaying] = useState(false)
 
+ /**
+  * The function toggles the value of a state variable called isOpen.
+  */
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
 
+ /* The `return` statement is returning a JSX element that represents the navigation bar of a website.
+ It consists of a `nav` element with a `className` of `flex items-center justify-between px-4 py-3
+ bg-black text-white`, which sets the background color to black and the text color to white, and
+ contains three child elements: */
   return (
     <nav className='flex items-center justify-between px-4 py-3 bg-black text-white '>
       <div className='flex items-center'>
@@ -21,7 +30,7 @@ const Navbar: React.FC = () => {
           {' '}
           Realm of Rings
         </Link>
-        <img src={logo} alt='logo' className='h-10 w-10 animate-bounce' />
+        <img src={logo} alt='logo' className='h-10 w-10' />
       </div>
 
       <div className='md:hidden'>
@@ -51,7 +60,7 @@ const Navbar: React.FC = () => {
       <div
         className={`px-2 pt-2 pb-4 ${
           isOpen ? `block` : `hidden`
-        } md:flex md:items-center md:space-x-1 bg-clip-text text-transparent bg-gradient-to-r from-yellow-500 to-red-900`}
+        } md:flex md:items-center md:space-x-1 bg-clip-text text-yellow-500`}
       >
 
         <Link
