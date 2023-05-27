@@ -32,7 +32,7 @@ To install the project:
 ## Clone the repository:
 bash
 Copy code
-git clone [https://github.com/yourusername/realm-of-rings.git](https://github.com/suryasama008/RingsOfRealm.git)
+git clone [https://github.com/suryasama008/RingsOfRealm.git](https://github.com/suryasama008/RingsOfRealm.git)
 Navigate into the cloned repository:
 bash
 Copy code
