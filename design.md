@@ -9,9 +9,9 @@ The project involves building a React application using the Lord of the Rings AP
 - Used pagination access characters and quotes list
 
 ## Technical Design
-- React: React will be the core framework for building the application. It enables the creation of reusable components, efficient UI rendering, and state management.
-- Tailwind CSS: Tailwind CSS will handle the styling of the application. It offers a utility-first approach, allowing for rapid development and easy customization of UI components.
-- TypeScript: TypeScript will be used to add static typing to the project. It provides enhanced tooling, improved code quality, and better collaboration among developers.
+- React: React will be the core framework for building the application.
+- Tailwind CSS: Tailwind CSS will handle the styling of the application. 
+- TypeScript: TypeScript will be used to add static typing to the project. 
 - The Lord of the Rings API: The Lord of the Rings API will be utilized to fetch data about movies, characters, and quotes.
 
 ## Conclusion
