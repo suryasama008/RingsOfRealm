@@ -1,6 +1,6 @@
 # RingsOfRealm
 
-The purpose of this project, titled "Realm of Rings", is to provide a React and TypeScript-based web application that provides information about the epic saga of the "Lord of the Rings" franchise. The information includes a list of movies, characters, and quotes from the series. Styling is done using Tailwind CSS.
+The purpose of this project, titled "Realm of Rings", is to provide a React and TypeScript-based responsive web application that provides information about the epic saga of the "Lord of the Rings" franchise. The information includes a list of movies, characters, and quotes from the series. Styling is done using Tailwind CSS.
 
 ## Features
 - Home: The Home page displays a welcome message.
@@ -27,24 +27,20 @@ live Demo: [https://reamoftherings.netlify.app/](https://reamoftherings.netlify.
 
 ## Clone the repository:
 git clone [https://github.com/suryasama008/RingsOfRealm.git](https://github.com/suryasama008/RingsOfRealm.git)
-Navigate into the cloned repository:
-cd realm-of-rings
-Install the project dependencies:
-npm install
-To start the development server, run:
-npm run dev
-The application should open in your default web browser.
 
 1. Install [NodeJS](http://www.nodejs.org)
 2. Download this repo
 3. Open the command line of your choice and cd to a sample directory within this repo on your machine
 4. `npm install` - Installs packages
-5. `npm run dev` - Builds the project and launch a lite web server (webpack-dev-server).
-6. Navigate to (http://localhost:3000/) if your browser doesn't open automatically.
+5. cd RingsOfRealm
+6. `npm run dev` - Builds the project and launch a lite web server (webpack-dev-server).
+7. Navigate to (http://localhost:3000/) if your browser doesn't open automatically.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## PS
+For a better user experience you can unmute the music at the top right corner of the page.
 
 ## About the Developer
 I am a React enthusiast, passionate about turning ideas into robust products. I'm always eager to learn more about modern front-end technologies and improve my skills.
