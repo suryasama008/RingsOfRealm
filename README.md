@@ -23,7 +23,7 @@ Node.js and npm (npm is distributed with Node.js.
 A modern web browser.
 
 ## Live Demo
-live Demo: [https://reamoftherings.netlify.app/](https://reamoftherings.netlify.app/)
+live Demo: [https://realmoftherings.netlify.app/](https://realmoftherings.netlify.app/)
 
 ## Clone the repository:
 git clone [https://github.com/suryasama008/RingsOfRealm.git](https://github.com/suryasama008/RingsOfRealm.git)
